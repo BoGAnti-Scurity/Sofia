@@ -10,9 +10,9 @@ import os
 hostname = "www.google.com"
 response = os.system("ping -f " + hostname)
 if response == 0:
-    print "Hay conexion suficiente uwu"
+    print("Hay conexion suficiente uwu")
 else:
-    print "No hay conexion suficiente unu"
+    print("No hay conexion suficiente unu")
     exit()
 ax = os.system 
 ax("cls")
